@@ -14,8 +14,8 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
-  checkLogin() {
-    console.log('called function', this.username, this.password);
+  checkLogin(somedata: any) {
+    console.log('called function', this.username, this.password, somedata);
   }
 
 }
